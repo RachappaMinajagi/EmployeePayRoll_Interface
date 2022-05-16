@@ -1,0 +1,18 @@
+
+<header class="header-content header">
+    <div class="logo-content">
+        
+        <img src="../assets/EmpLogo.png" alt="logo" (click)="onDashboard()">
+        <div (click)="onDashboard()">
+            <span class="emp-text">EMPLOYEE</span><br>
+            <span class="emp-text emp-payroll">PAYROLL</span>
+        </div>
+
+        
+        <div class="button">
+            <button type="button" class="btn btn-success" (click)="onDashboard()">Dashboard</button>
+            <button type="button" class="btn btn-success" (click)="onForm()">Form</button>
+        </div>
+    </div>
+</header>
+<router-outlet></router-outlet>
